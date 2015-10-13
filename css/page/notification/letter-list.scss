@@ -1,0 +1,347 @@
+body{
+  background-color: #f1f2f3;
+}
+#content {
+width: 1200px;
+ background-color: #f1f2f3;
+
+}
+
+/*左侧部分*/
+.pg-main-l{
+  float:left;
+  width:976px;
+}
+/*左侧内部导航*/
+.pg-main-ll{
+  float: left;
+  width:222px;
+  border-width:1px 1px 3px 1px;
+  border-color:#e3e4e5;
+  border-style:solid;
+  background:#fff;
+}
+.pg-main-ll-inner{
+  width:200px;
+  padding:18px 12px;
+}
+a.pg-ll-nav{
+  width:200px;
+  display:block;
+  height:20px;
+  line-height:20px;
+  background:url('http://img5.duitang.com/uploads/people/201406/17/20140617103453_GQ2Vi.png') no-repeat -14px -10px;
+  text-indent:20px;
+  cursor:pointer;
+  margin-bottom:18px;
+  color:#444;
+  font-size:13px;
+  text-decoration:none;
+}
+.pg-ll-nav.current{
+  background-position:-14px -50px;
+}
+a.pg-ll-nav.current:link, a.pg-ll-nav.current:visited, a.pg-ll-nav.current:hover, a.pg-ll-nav.current:active{
+   background-position:-14px -50px;
+}
+/*左侧内部内容*/
+.pg-main-lr{
+  float: left;
+  width:710px;
+  margin:0 20px;
+  _margin:0 0 0 20px;
+  background:#fff;
+  border-width:1px 1px 3px 1px;
+  border-color:#e3e4e5;
+  border-style:solid;
+}
+
+.pg-main-lr .pg-lr-nav{
+  width:680px;
+  height:40px;
+  border-bottom:1px solid #e8e8e8;
+  padding:10px 16px;
+  line-height:40px;
+  display:none;
+}
+/*.pg-main-lr .pg-lr-nav .pg-lr-tab{
+  display:none;
+  line-height:40px;
+}*/
+.pg-main-lr .pg-lr-nav ul li{
+  float: left;
+  margin-right:20px;
+  cursor:pointer;
+}
+.pg-main-lr .pg-lr-nav ul li.current{
+  font-weight:bold;
+}
+.pg-main-lr .pg-lr-nav ul li a{
+  color:#444;
+  text-decoration:none;
+}
+/*.pg-main-lr .pg-lr-nav .pg-lr-tab:nth-child(1){
+  display:block;
+}*/
+.pg-lr-content{
+  width:712px;
+  display:none;
+  min-height:400px;
+}
+.pg-lr-content1{
+  display:block;
+}
+.pg-lr-content.current{
+  display:block;
+}
+.pg-lr-content-message ul{
+  min-height:1000px;
+}
+.pg-lr-content-message:nth-child(1){
+  display:block;
+}
+
+.pg-lr-content .pg-nonoti{
+  height: 350px;
+  line-height: 350px;
+  text-align: center;
+  color: #888888;
+}
+.pg-main-lr .pg-message-pager{
+  width:200px;
+  margin:0 auto;
+}
+
+.pg-main-lr .pg-message-pager a{
+  width:76px;
+  height:34px;
+  float: left;
+  text-align:center;
+  font-size:14px;
+  color:#444444;
+  border:1px solid #e3e2e1;
+  line-height:34px;
+  display:none;
+  margin:20px 0;
+}
+.pg-main-lr .pg-message-pager a.pg-pager-prev{
+  margin-right:40px;
+}
+.pg-lr-content ul li{
+  padding:12px 15px 16px;
+  border-bottom:1px solid #e8e8e8;
+  width:680px;
+}
+.pg-lr-content ul li:hover{
+  background:#f1f2f3;
+  cursor:pointer;
+}
+.pg-lr-content4 ul li:hover{
+  background:none;
+  cursor:default;
+}
+.pg-lr-content ul a:hover{
+  text-decoration: none;
+}
+.pg-lr-content4 .pg-people-image{
+  cursor:pointer;
+}
+.pg-lr-content .pg-people-avatar{
+  position:relative;
+  height:40px;
+  width:40px;
+  float:left;
+}
+.pg-lr-content .pg-people-image{
+  float:left;
+  width:36px;
+  height:36px;
+  border-radius:36px;
+  padding:2px;
+}
+
+.pg-lr-content .pg-people-image2{
+  width:36px;
+  height:36px;
+  border-radius:36px;
+  padding:2px;
+  _margin-top:-22px;
+}
+.pg-lr-content .pg-people-icon{
+  position:absolute;
+  bottom:0;
+  right:0;
+  background:url("http://img5.duitang.com/uploads/people/201407/16/20140716115853_E8ZRR.png");
+  height:20px;
+  width:20px;
+  background-position:-10px -10px;
+}
+.pg-lr-content .pg-people-forward{
+  background-position: -50px -10px;
+}
+.pg-lr-content .pg-people-zan{
+  background-position: -90px -10px;
+}
+.pg-lr-content .pg-people-comment{
+  background-position:-130px -10px; 
+}
+
+.pg-lr-content .pg-people-info{
+  margin-left:52px;
+  text-align:left;
+}
+.pg-lr-content .pg-people-info .pg-people-name,.pg-lr-content .pg-people-info .pg-people-msg{
+  float: left;
+  word-break:break-all;
+  width:564px;
+  _width:520px;
+  margin-right:24px;
+  line-height:20px;
+  font-size:13px;
+  _font-size:12px;
+}
+.pg-lr-content .pg-people-info .pg-people-name:hover,.pg-lr-content .pg-people-info .pg-people-msg:hover{
+  text-decoration: none;
+}
+.pg-lr-content4 .pg-people-info{
+  float: left;
+  width: 568px;
+  margin-left:12px;
+}
+
+.pg-lr-content .pg-people-info .pg-people-name{
+  color:#444444;
+  font-weight:bold;
+}
+.pg-lr-content .pg-people-info .pg-people-name a{
+  color:#444444;
+  text-decoration:none;
+  cursor: pointer;
+}
+.pg-lr-content .pg-people-info p.pg-people-msg,.pg-lr-content .pg-people-info p.pg-people-content{
+  color:#888888;
+
+}
+.pg-lr-content .pg-people-info .pg-people-msg a{
+  color:#888888;
+}
+.pg-lr-content .pg-opeople-avatar{
+  width:40px;
+  height:40px;
+  float: left;
+  position:relative;
+}
+.pg-lr-content .pg-opeople-image{
+  width:40px;
+  height:40px;
+  _margin-top:-22px;
+}
+.pg-lr-content .pg-pOpreate{
+  _width:520px;
+}
+.pg-lr-content .pg-pOpreate a{
+  width:60px;
+  display:inline-block;
+  margin-top:14px;
+  height:28px;
+  line-height:28px;
+  color:#fff;
+  text-align:center;
+}
+.pg-lr-content .pg-pOpreate .pg-haccept{
+  color:#fff;
+}
+.pg-lr-content .pg-pOpreate .pg-hdeny{
+  margin-left:12px;
+  width:58px;
+  height:26px;
+  line-height:26px;
+  border:1px solid #f0f0f0;
+  color:#888888;
+  text-align:center;
+}
+.pg-lr-content4 ul li .follow{
+  color:#fff;
+  font-size:13px;
+  _font-size:12px;
+  width:60px;
+  float:left;
+  height:28px;
+  line-height:28px;
+  background-color: #4cd964;
+  text-indent:0;
+  background-image:none;
+  text-align:center;
+}
+.pg-lr-content4 ul li .follow i{
+  display:none;
+}
+.pg-lr-content4 ul li .unfollow{
+  height:26px;
+  color:#888888 !important;
+  border:1px solid #f0f0f0;
+  font-size:13px;
+  _font-size:12px;
+  line-height:26px;
+  width:58px;
+  float: left;
+  background-color:#fff;
+  text-indent:0;
+  background-image:none;
+  text-align:center;
+}
+.pg-lr-content4 ul li .unfollow i {
+  display:none;
+}
+.pg-lr-content4 ul li .btn-green:hover {
+  background-color: #43bf58;
+}
+.pg-lr-content4 ul li .btn-white:hover {
+  background-color: #f0f0f0;
+}
+/*右侧部分*/
+.pg-main-r{
+  float:left;
+  width:222px;
+  height:300px;
+  background:#fff;
+  border-width:1px 1px 3px 1px;
+  border-color:#e3e4e5;
+  border-style:solid;
+}
+.pg-main-r-inner{
+  width:192px;
+  padding:12px;
+}
+.pg-main-r-title{
+  line-height:40px;
+  height:40px;
+  border-bottom:1px solid #e3e4e5;
+}
+
+.pg-main-r-daren{
+  padding:12px 0;
+  border-bottom:1px solid #e3e4e5;
+}
+.pg-main-r-daren .pg-r-daren-avatar{
+  width:40px;
+  height:40px;
+  float: left;
+}
+.pg-main-r-daren .pg-r-daren-people-image{
+  width:36px;
+  height:36px;
+  border-radius:36px;
+}
+.pg-main-r-daren .pg-r-daren-info{
+  margin-left:52px;
+  text-align:left;
+}
+.pg-main-r-daren .pg-r-daren-info p{
+  line-height:20px;
+}
+.pg-main-r-more{
+  height:40px;
+  line-height:40px;
+  color:#888888;
+}
